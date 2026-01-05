@@ -3,6 +3,9 @@
 ## Overview
 This project analyzes Netflix’s dataset to uncover insights into content growth, genre distribution, ratings, and global reach. The goal is to demonstrate how data visualization and analysis can be used to understand business strategies and audience targeting in the streaming industry.
 
+## Access the Dashboard
+Click on the link - https://public.tableau.com/app/profile/ankita.urade/viz/Netflix_17423258934360/Netflix
+
 ## Objectives
 - Analyze the growth of Netflix movies and TV shows over the years
 - Identify the most popular genres on the platform
@@ -10,9 +13,8 @@ This project analyzes Netflix’s dataset to uncover insights into content growt
 - Visualize content distribution across countries to assess global reach
 
 ## Tools & Technologies
-- Python (Pandas, NumPy) – data cleaning and transformation
-- SQL – reusable queries for trend and pattern analysis
-- Data Visualization (Tableau / Power BI / Matplotlib / Seaborn)
+
+- Data Visualization - Tableau 
 
 ## Dataset
 The dataset includes information on Netflix movies and TV shows such as:
@@ -29,25 +31,7 @@ The dataset includes information on Netflix movies and TV shows such as:
 - Rating distributions show strategic content targeting for different audience groups
 - Netflix’s content spans multiple countries, highlighting its global expansion strategy
 
-## Repository Structure
-- data/               : Raw and cleaned datasets (CSV/SQL)
-- notebooks/          : Jupyter notebooks used for analysis
-- tableau/            : Tableau workbook(s) and packaged data sources
-- sql/                : Reusable SQL queries
-- images/             : Charts and dashboard screenshots
-- README.md           : This file
 
-## How to use
-1. Open the Tableau workbook(s) in the `tableau/` folder to view the dashboards.
-2. Use the `notebooks/` folder for reproducible data cleaning and EDA in Python.
-3. Re-run the SQL queries in the `sql/` folder against your dataset to reproduce trend tables.
 
-## Notes
-- Replace the dataset files in `data/` with your updated Netflix dataset if needed.
-- Ensure your Tableau version supports the workbook file format included.
 
-## License
-Specify a license (e.g., MIT) if you want to make the repository open-source.
 
-## Contributors
-- Ankitaurade3 (owner)
